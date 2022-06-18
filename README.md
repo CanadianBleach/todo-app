@@ -1,34 +1,25 @@
 # Overview
+To learn NextJS, built on React, I wanted to make a todo website. This site is connected to a MongoDB database. The site updates the database allwoing to close the app and have all your items there. There is an add, done, edit, and delete function.
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/SLx6LylgsIU)
 
 # Web Pages
-
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+The page is a single site with multiple backend calls. The page contains
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used Javascript, with the NextJS framework with VS Code as my editor. I used MongoDB to host database, as well as Compass to access the database. I used a few dependacies including axios, mongoose, and obviously react.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Next Js Todo Example](https://dev.to/alexmercedcoder/building-a-full-stack-todo-list-with-mongodb-nextjs-typescript-2f75)
-* [Example 2](https://www.youtube.com/watch?v=wfAp834eZYo&t=15s)
+* [Typescript & Mongo DB, Todo Example](https://dev.to/alexmercedcoder/building-a-full-stack-todo-list-with-mongodb-nextjs-typescript-2f75)
+* [Cyberwolve, React and NextJS](https://dev.to/cyberwolve)
+* [Mongo DB connection troublshooting](https://www.mongodb.com/community/forums/t/mongodb-localhost-connection/15307)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I would really like to add an account feature, so that multiple people can use the site.
+* I think adding a remind feature would be cool. Set a time and get a notification at that time.
+* I would like to add a confirm modal, that way you don't accidentally delete your todos.
